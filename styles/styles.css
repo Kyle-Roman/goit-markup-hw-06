@@ -825,6 +825,7 @@ img {
   left: 12px;
   width: 12px;
   height: 12px;
+  fill: var(--logo-text-main);
 }
 
 .modal-form-input:focus + .modal-form-icon {
@@ -854,6 +855,18 @@ img {
   color: rgba(117, 117, 117, 0.5);
 }
 
+.modal-form-check-desc::before {
+  display: inline-block;
+  content: "";
+  margin-right: 8px;
+  width: 16px;
+  height: 16px;
+  border: 2px solid #000000;
+  border-radius: 2px;
+  cursor: pointer;
+  outline: none;
+}
+
 .modal-form-check-desc {
   display: flex;
   justify-content: center;
@@ -863,24 +876,16 @@ img {
   color: var(--secondary-text-color);
 }
 
-.modal-form-check-desc::before {
-  display: inline-block;
-  content: "";
-  margin-right: 8px;
-  width: 16px;
-  height: 16px;
-  border: 1px solid var(----logo-text-main);
-  cursor: pointer;
-}
-
 .modal-form-agreement:checked + .modal-form-check-desc::before {
   background-image: url("../images/checked.svg");
+  background-repeat: no-repeat;
+  background-color: var(--accent-color);
   background-position: center;
-  border: 1px solid #000000;
+  border: 1px solid var(--accent-color);
 }
 
 .modal-form-agreement:focus + .modal-form-check-desc::before {
-  box-shadow: 0 0 0 2px #2196f3;
+  box-shadow: 0 0 0 1px var(--accent-color);
 }
 
 .modal-form-btn {
