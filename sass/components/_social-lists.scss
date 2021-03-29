@@ -3,3 +3,7 @@
   align-items: center;
   justify-content: center;
 }
+
+.social-list-item:not(:last-child) {
+  margin-right: 10px;
+}

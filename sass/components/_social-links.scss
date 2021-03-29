@@ -10,24 +10,20 @@
 
   transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1),
     color 250ms cubic-bezier(0.4, 0, 0.2, 1);
-}
 
-.social-list-link:hover,
-.social-list-link:focus {
-  background-color: var(--accent-color);
-}
-
-.social-list-link:hover .social-list-icon,
-.social-list-link:focus .social-list-icon {
-  color: var(--accent-text-color);
-}
-
-.social-list-item:not(:last-child) {
-  margin-right: 10px;
+  &:hover,
+  &:focus {
+    background-color: var(--accent-color);
+  }
 }
 
 .social-list-icon {
   fill: currentColor;
   width: 20px;
   height: 20px;
+
+  .social-list-link:hover &,
+  .social-list-link:focus & {
+    color: var(--accent-text-color);
+  }
 }

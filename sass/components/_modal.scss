@@ -29,16 +29,16 @@
   border: 1px solid rgba(0, 0, 0, 0.1);
   background: transparent;
   cursor: pointer;
+
+  &:focus,
+  &:hover {
+    fill: var(--accent-color);
+  }
 }
 
 .modal-x {
   width: 11px;
   height: 11px;
-}
-
-.modal-close-btn:focus,
-.modal-close-btn:hover {
-  fill: var(--accent-color);
 }
 
 .is-hidden {

@@ -3,6 +3,21 @@
   padding-bottom: var(--section-pb);
 }
 
+.specialties-logo {
+  display: block;
+  width: 70px;
+  height: 70px;
+}
+.logo-wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 270px;
+  height: 120px;
+  margin-bottom: 30px;
+  background-color: var(--background-color-main);
+}
+
 .specs-list {
   display: flex;
   margin-left: -30px;
@@ -15,22 +30,6 @@
   width: 270px;
   margin-left: 30px;
   margin-top: 30px;
-}
-
-.logo-wrapper {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  width: 270px;
-  height: 120px;
-  margin-bottom: 30px;
-  background-color: var(--background-color-main);
-}
-
-.specialties-logo {
-  display: block;
-  width: 70px;
-  height: 70px;
 }
 
 .specs-subtitle {
