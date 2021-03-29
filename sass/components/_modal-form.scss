@@ -110,6 +110,15 @@
   }
 }
 
+.licence-agreement {
+  color: var(--accent-color);
+
+  // &:hover,
+  // &:focus {
+  //   color: var(--accent-color);
+  // }
+}
+
 .modal-form-btn {
   min-width: 200px;
   padding: 10px 32px;

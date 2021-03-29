@@ -8,6 +8,10 @@
   margin-bottom: 50px;
 }
 
+.examples-list-item:not(:last-child) {
+  margin-right: 8px;
+}
+
 .examples-list-wraper {
   position: relative;
   overflow: hidden;
@@ -50,8 +54,4 @@
   flex-basis: calc(100% / 3 - 30px);
   margin-top: 30px;
   margin-left: 30px;
-
-  &:not(:last-child) {
-    margin-right: 8px;
-  }
 }
