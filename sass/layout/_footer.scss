@@ -2,31 +2,6 @@
   background-color: var(--background-color-accent);
   padding-top: 60px;
   padding-bottom: 60px;
-
-  & .logo {
-    margin-bottom: 20px;
-  }
-
-  & .container {
-    display: flex;
-    align-items: baseline;
-  }
-
-  & .social-list-link {
-    color: var(--accent-text-color);
-    background-image: linear-gradient(
-      rgba(255, 255, 255, 0.1),
-      rgba(255, 255, 255, 0.1)
-    );
-  }
-
-  & .social-list-icon {
-    fill: currentColor;
-  }
-}
-
-.logo-studio-footer {
-  color: var(--accent-text-color);
 }
 
 .address {
@@ -39,8 +14,10 @@
   display: block;
 }
 
-.address-list-item:not(:last-child) {
-  margin-bottom: 9px;
+.address-list-item {
+  &:not(:last-child) {
+    margin-bottom: 9px;
+  }
 }
 
 .address-link {

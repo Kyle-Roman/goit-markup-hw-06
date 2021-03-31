@@ -15,6 +15,14 @@
   &:focus {
     background-color: var(--accent-color);
   }
+
+  .footer & {
+    color: var(--accent-text-color);
+    background-image: linear-gradient(
+      rgba(255, 255, 255, 0.1),
+      rgba(255, 255, 255, 0.1)
+    );
+  }
 }
 
 .social-list-icon {
@@ -25,5 +33,9 @@
   .social-list-link:hover &,
   .social-list-link:focus & {
     color: var(--accent-text-color);
+  }
+
+  .footer & {
+    fill: currentColor;
   }
 }
