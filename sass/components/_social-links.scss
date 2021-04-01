@@ -1,4 +1,4 @@
-.social-list-link {
+.social-list__link {
   display: flex;
   align-items: center;
   justify-content: center;
@@ -25,13 +25,13 @@
   }
 }
 
-.social-list-icon {
+.social-list__icon {
   fill: currentColor;
   width: 20px;
   height: 20px;
 
-  .social-list-link:hover &,
-  .social-list-link:focus & {
+  .social-list__link:hover &,
+  .social-list__link:focus & {
     color: var(--accent-text-color);
   }
 

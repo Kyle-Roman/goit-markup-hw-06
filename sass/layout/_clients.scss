@@ -4,38 +4,38 @@
 }
 .clients-list {
   display: flex;
-}
 
-.clients-list-item {
-  display: flex;
-  width: 170px;
-  height: 90px;
+  &__item {
+    display: flex;
+    width: 170px;
+    height: 90px;
 
-  &:not(:last-child) {
-    margin-right: 30px;
+    &:not(:last-child) {
+      margin-right: 30px;
+    }
   }
-}
 
-.clients-logo {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  width: 100%;
-  height: 100%;
-  border: 1px solid #afb1b8;
-  border-radius: 4px;
-  fill: var(--social-logo);
+  &__logo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+    border: 1px solid #afb1b8;
+    border-radius: 4px;
+    fill: var(--social-logo);
 
-  transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1),
-    fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
+    transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1),
+      fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
 
-  &:hover,
-  &:focus {
-    border-color: var(--accent-color);
-    fill: var(--accent-color);
+    &:hover,
+    &:focus {
+      border-color: var(--accent-color);
+      fill: var(--accent-color);
+    }
   }
-}
 
-.clients-logo-icon {
-  display: inline-block;
+  &__icon {
+    display: inline-block;
+  }
 }

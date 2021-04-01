@@ -10,12 +10,14 @@
   .footer & {
     margin-bottom: 20px;
   }
-}
 
-.logo-studio-header {
-  color: var(--logo-text-main);
-}
+  &_theme {
+    &_header {
+      color: var(--logo-text-main);
+    }
 
-.logo-studio-footer {
-  color: var(--accent-text-color);
+    &_footer {
+      color: var(--accent-text-color);
+    }
+  }
 }

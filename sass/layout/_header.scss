@@ -16,18 +16,18 @@
   align-items: center;
 }
 
-.header-contacts-mail {
+.header-contacts__mail {
   display: inline-block;
   margin-right: 30px;
   fill: var(--secondary-text-color);
 }
 
-.header-contacts-tel {
+.header-contacts__tel {
   display: inline-block;
   fill: var(--secondary-text-color);
 }
 
-.header-contact-link {
+.header-contacts__link {
   display: flex;
   align-items: center;
   padding-top: 32px;
@@ -44,13 +44,13 @@
   }
 }
 
-.header-envelope {
+.header-contacts__icon-envelope {
   width: 16px;
   height: 12px;
   margin-right: 10px;
 }
 
-.header-tel {
+.header-contacts__icon-phone {
   width: 10px;
   height: 16px;
   margin-right: 10px;
